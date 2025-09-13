@@ -1,5 +1,9 @@
 @echo off
 
+echo Installing PYTHON...
+winget install --id Python.PythonInstallManager -e --source winget
+echo.
+
 echo Installing GIT...
 winget install --id Git.Git -e --source winget
 git --version
