@@ -36,10 +36,12 @@ echo.
                                              requests ^
                                              XlsxWriter openpyxl pandas ^
                                              pylint pylint-json2html ^
-                                             pytest pytest-cov ^
+                                             pytest pytest-cov
+
 
 mkdir data 2>nul
-.\venv_win\Scripts\python.exe -m pip freeze > .\data\requirements.txt
+.\venv_win\Scripts\pip freeze > .\data\requirements.txt
+git add .\data\requirements.txt 2>nul
 
 pause
 goto :eof
