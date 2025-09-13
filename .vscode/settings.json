@@ -1,0 +1,16 @@
+{
+  "editor.tabSize": 2,
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/.vscode": true,
+    "**/venv*": true
+  },
+    "[python]": {
+      "diffEditor.ignoreTrimWhitespace": false,
+      "editor.defaultColorDecorators": "never",
+      "editor.formatOnType": true,
+      "editor.wordBasedSuggestions": "off"
+    },
+    "files.autoSave": "afterDelay",
+    "workbench.colorTheme": "Default Light Modern",
+}
