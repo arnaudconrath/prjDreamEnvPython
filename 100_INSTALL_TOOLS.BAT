@@ -4,6 +4,10 @@ echo Installing PYTHON...
 winget install --id Python.PythonInstallManager -e --source winget
 echo.
 
+echo Installing Doxygen...
+winget install -e --id DimitriVanHeesch.Doxygen
+echo.
+
 echo Installing GIT...
 winget install --id Git.Git -e --source winget
 git --version
